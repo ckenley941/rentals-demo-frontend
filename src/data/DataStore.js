@@ -2,11 +2,7 @@
 //Eventually configure better
 import axios from "axios";
 
-//const prodUrl = "";
-const devUrl = "https://localhost:7107/";
-
-export const mainUrl = devUrl;
-export const apiUrl = mainUrl + "api";
+const apiUrl = "https://search.outdoorsy.com/";
 
 export const client = axios.create({
     baseURL: apiUrl,

@@ -1,0 +1,3 @@
+interface FilterQueryString {
+    keyword: string
+}

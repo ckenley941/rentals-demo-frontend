@@ -1,4 +1,4 @@
-interface RentalsQueryString {
+interface RentalsFilterQueryString {
     filter: FilterQueryString,
     page: PageQueryString,
 }

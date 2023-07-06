@@ -1,5 +1,6 @@
 import { client } from "../data/DataStore"
 
-export function getRentals(id: number) {
-    return client.get(`rentals`);
+export function getRentals(filter: RentalsFilterQueryString) {
+  const params = filter;  
+    return client.get(`rentals`, { params });
   }

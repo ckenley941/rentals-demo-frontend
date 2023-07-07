@@ -1,5 +1,9 @@
-export default function RelatedPrimaryImage({ data, primaryImageId }) {
+export default function RelatedPrimaryImage({ url }) {
     return (
-      <div>{primaryImageId}</div>
+      <div className="rental-card-side">     
+        <img src={url} width="100%" alt=""></img>
+       </div>
     );
     }
+
+    
